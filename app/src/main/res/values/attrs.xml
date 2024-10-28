@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InsetLayout">
+        <attr name="insetStatusBar" format="boolean" />
+        <attr name="insetNavigationBar" format="boolean" />
+        <attr name="android:insetTop" format="dimension" />
+    </declare-styleable>
+</resources>
