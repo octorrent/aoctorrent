@@ -7,9 +7,11 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.WindowCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.navigation.NavigationView;
 import com.octorrent.android.R;
+import com.octorrent.android.ui.fragments.TorrentFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
                 drawerLayout.openDrawer(navigationView);
             }
         });
+
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.add(R.id.fragment_container, new TorrentFragment(), "Home");
+        //transaction.addToBackStack("Home");
+        transaction.commit();
     }
 
     @Override
