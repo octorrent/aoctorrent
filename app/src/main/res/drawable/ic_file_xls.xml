@@ -20,6 +20,10 @@
 
     <path
         android:fillColor="#97DD97"
-        android:pathData="M6.5 4.4 h8.4 v1 h-8.4 m0 1.6 h8.4 v1 h-8.4 m0 1.6 h11.2 v1 h-11.2 m0 1.6 h13.6 v1 h-13.6" />
+        android:pathData="M6.5 3.4 v8.7 h8.7 v-8.7  m-3 2 v2 h2 v-2" />
+
+    <path
+        android:fillColor="#E9FFE9"
+        android:pathData="M7.5 4.4 v1.6 h1.6 v-1.6 m1 0 v1.6 h1.6 v-1.6 m1 0 v1.6 h1.6 v-1.6 m-6.8 2.6 v1.6 h1.6 v-1.6 m1 0 v1.6 h1.6 v-1.6 m1 0 v1.6 h1.6 v-1.6 m-6.8 2.6 v1.6 h1.6 v-1.6 m1 0 v1.6 h1.6 v-1.6 m1 0 v1.6 h1.6 v-1.6" />
 
 </vector>
