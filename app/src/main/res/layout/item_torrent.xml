@@ -10,7 +10,7 @@
         android:layout_width="60dp"
         android:layout_height="match_parent"
         android:id="@+id/icon"
-        android:src="@drawable/ic_file_ai"
+        android:src="@drawable/ic_file_unknown"
         android:adjustViewBounds="true" />
 
     <LinearLayout
