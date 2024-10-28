@@ -31,6 +31,6 @@
         android:textColor="@color/text_secondary"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:text="It appears you don't have any torrents" />
+        android:text="You don't have any torrents" />
 
 </LinearLayout>
