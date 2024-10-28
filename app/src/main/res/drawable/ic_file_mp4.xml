@@ -20,6 +20,6 @@
 
     <path
         android:fillColor="#AAA4ED"
-        android:pathData="M9.5 4.4 l5 3 q2 1 0 2 l-5 3 q-1 0.5 -1 -1 v-6 q0 -1.5 1 -1" />
+        android:pathData="M8 5.2 q0.15 -1.1 1.2 -0.7 l5.8 3.3 q0.8 0.7 0 1.4 l-5.8 3.3 q-1.1 0.35 -1.2 -0.7" />
 
 </vector>
