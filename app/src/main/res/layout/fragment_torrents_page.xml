@@ -20,4 +20,9 @@
         tools:itemCount="4"
         android:clipToPadding="false"
         android:paddingBottom="40dp" />
+
+    <include
+        android:id="@+id/error"
+        layout="@layout/error_missing_torrents" />
+
 </FrameLayout>

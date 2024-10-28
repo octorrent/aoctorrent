@@ -45,7 +45,6 @@ public class TorrentFragment extends Fragment {
         adapter.addFragment("Downloading", new TorrentDownloadingFragment());
         adapter.addFragment("Completed", new TorrentCompletedFragment());
 
-
         new TabLayoutMediator(tabs, viewPager, new TabLayoutMediator.TabConfigurationStrategy(){
             @Override
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position){

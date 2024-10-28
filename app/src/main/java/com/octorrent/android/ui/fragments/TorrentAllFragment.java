@@ -38,6 +38,9 @@ public class TorrentAllFragment extends Fragment {
         RecyclerView listView = view.findViewById(R.id.list_view);
         TorrentAdapter adapter = new TorrentAdapter(getContext(), torrents);
         listView.setAdapter(adapter);
+
+        View loader = getView().findViewById(R.id.error);
+        ((ViewGroup) loader.getParent()).removeView(loader);
     }
 
     @Override
