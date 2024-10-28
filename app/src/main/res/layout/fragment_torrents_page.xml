@@ -23,6 +23,6 @@
 
     <include
         android:id="@+id/error"
-        layout="@layout/error_missing_torrents" />
+        layout="@layout/error_no_torrents" />
 
 </FrameLayout>
