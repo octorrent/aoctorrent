@@ -2,26 +2,33 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabs"
+        android:background="@android:color/transparent"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorGravity="center"
+        app:tabIndicatorHeight="28sp"
+        app:tabPaddingStart="10dp"
+        app:tabPaddingEnd="10dp"
+        app:tabIndicator="@drawable/background_tab"
+        app:tabMode="scrollable"
+        app:layout_scrollFlags="noScroll"
+        app:tabSelectedTextColor="@color/background"
+        app:tabTextColor="@color/text_primary"
+        android:layout_marginHorizontal="10dp" />
+
+    <androidx.viewpager2.widget.ViewPager2
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/list_view"
-        android:scrollingCache="true"
-        android:persistentDrawingCache="scrolling"
-        android:listSelector="@android:color/transparent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_torrent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:scrollbars="none"
-        tools:itemCount="4"
-        android:clipToPadding="false"
-        android:paddingBottom="40dp" />
+        android:id="@+id/view_pager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <LinearLayout
         android:layout_width="match_parent"

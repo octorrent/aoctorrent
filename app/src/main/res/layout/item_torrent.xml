@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:padding="10dp">
 
     <ImageView
-        android:layout_width="60dp"
+        android:layout_width="50dp"
         android:layout_height="match_parent"
         android:id="@+id/icon"
-        android:src="@drawable/ic_file_unknown"
+        tools:src="@drawable/ic_file_iso"
         android:adjustViewBounds="true" />
 
     <LinearLayout
@@ -22,14 +22,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/title"
             android:textStyle="bold"
-            android:text="ubuntu-21.10-desktop-amd64.iso" />
+            tools:text="ubuntu-21.10-desktop-amd64.iso" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/status"
             android:textColor="@color/text_secondary"
-            android:text="624 MB of 3.12 GB - 2 min, 13 secs left" />
+            tools:text="624 MB of 3.12 GB - 2 min, 13 secs left" />
 
         <ProgressBar
             android:layout_width="match_parent"
@@ -42,8 +44,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/description"
             android:textColor="@color/text_secondary"
-            android:text="Downloading from 45 of 50 connected peers" />
+            tools:text="Downloading from 45 of 50 connected peers" />
 
     </LinearLayout>
 </LinearLayout>
