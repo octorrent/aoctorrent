@@ -39,6 +39,22 @@
                 android:layout_gravity="center"
                 android:paddingHorizontal="16dp" />
 
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:id="@+id/magnet"
+                android:src="@drawable/ic_magnet"
+                android:background="?selectableItemBackgroundBorderless"
+                android:scaleType="fitCenter"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="12dp" />
+
         </LinearLayout>
 
         <FrameLayout
@@ -48,12 +64,20 @@
             android:id="@+id/fragment_container"
             android:background="@drawable/background_home" />
 
+        <com.octorrent.android.ui.views.OBottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_nav"
+            app:menu="@menu/bottom_nav"
+            app:itemTextColor="@color/text_secondary"
+            android:background="@color/background_secondary" />
+
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/navigation_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:itemIconTint="@null"
