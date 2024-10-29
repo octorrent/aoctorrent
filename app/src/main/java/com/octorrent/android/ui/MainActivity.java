@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.view.WindowCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentTransaction;
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
         drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.navigation_view);
+        navigationView.setPadding(0, getStatusBarHeight(), 0, 0);
+        navigationView.setItemIconTintList(null);
 
         ImageView navigationButton = findViewById(R.id.navigation);
         navigationButton.setOnClickListener(new View.OnClickListener(){
@@ -53,5 +56,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onDestroy(){
         super.onDestroy();
+    }
+
+    public int getStatusBarHeight(){
+        int result = 0;
+        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
+        if(resourceId > 0){
+            result = getResources().getDimensionPixelSize(resourceId);
+        }
+        return result;
     }
 }
