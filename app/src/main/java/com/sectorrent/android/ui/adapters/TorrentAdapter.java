@@ -1,4 +1,4 @@
-package com.octorrent.android.ui.adapters;
+package com.sectorrent.android.ui.adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.octorrent.android.R;
-import com.octorrent.android.handlers.Torrent;
+import com.sectorrent.android.R;
+import com.sectorrent.android.handlers.Torrent;
 
 import java.util.List;
 

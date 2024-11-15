@@ -1,4 +1,4 @@
-package com.octorrent.android.ui.fragments;
+package com.sectorrent.android.ui.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,14 +8,14 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.octorrent.android.R;
-import com.octorrent.android.handlers.Torrent;
-import com.octorrent.android.ui.adapters.TorrentAdapter;
+import com.sectorrent.android.R;
+import com.sectorrent.android.handlers.Torrent;
+import com.sectorrent.android.ui.adapters.TorrentAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TorrentDownloadingFragment extends Fragment {
+public class TorrentAllFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState){

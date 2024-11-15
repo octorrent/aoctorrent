@@ -1,4 +1,4 @@
-package com.octorrent.android.ui;
+package com.sectorrent.android.ui;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,8 +11,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.navigation.NavigationView;
-import com.octorrent.android.R;
-import com.octorrent.android.ui.fragments.TorrentFragment;
+import com.sectorrent.android.R;
+import com.sectorrent.android.ui.fragments.TorrentFragment;
 
 public class MainActivity extends AppCompatActivity {
 

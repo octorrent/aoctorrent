@@ -1,4 +1,4 @@
-package com.octorrent.android.ui.fragments;
+package com.sectorrent.android.ui.fragments;
 
 import android.os.Bundle;
 import android.view.HapticFeedbackConstants;
@@ -13,8 +13,8 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
-import com.octorrent.android.R;
-import com.octorrent.android.ui.adapters.KeySlidePagerAdapter;
+import com.sectorrent.android.R;
+import com.sectorrent.android.ui.adapters.KeySlidePagerAdapter;
 
 public class TorrentFragment extends Fragment {
 

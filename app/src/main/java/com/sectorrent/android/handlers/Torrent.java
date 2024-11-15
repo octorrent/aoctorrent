@@ -1,4 +1,4 @@
-package com.octorrent.android.handlers;
+package com.sectorrent.android.handlers;
 
 public class Torrent {
 

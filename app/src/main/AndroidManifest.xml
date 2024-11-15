@@ -19,7 +19,7 @@
         android:usesCleartextTraffic="true"
         android:hardwareAccelerated="true"
         android:largeHeap="true"
-        android:name=".OApplication"
+        android:name=".SApplication"
         android:theme="@style/AppTheme">
 
         <activity

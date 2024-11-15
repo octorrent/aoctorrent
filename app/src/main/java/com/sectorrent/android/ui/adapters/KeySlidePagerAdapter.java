@@ -1,4 +1,4 @@
-package com.octorrent.android.ui.adapters;
+package com.sectorrent.android.ui.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

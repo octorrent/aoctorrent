@@ -1,8 +1,8 @@
-package com.octorrent.android;
+package com.sectorrent.android;
 
 import android.app.Application;
 
-public class OApplication extends Application {
+public class SApplication extends Application {
 
     @Override
     public void onCreate(){

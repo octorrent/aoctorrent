@@ -1,4 +1,4 @@
-package com.octorrent.android;
+package com.sectorrent.android;
 
 import org.junit.Test;
 

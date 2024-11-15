@@ -1,4 +1,4 @@
-package com.octorrent.android.ui.views;
+package com.sectorrent.android.ui.views;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,17 +10,17 @@ import androidx.appcompat.widget.TooltipCompat;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class OBottomNavigationView extends BottomNavigationView {
+public class SBottomNavigationView extends BottomNavigationView {
 
-    public OBottomNavigationView(@NonNull Context context){
+    public SBottomNavigationView(@NonNull Context context){
         super(context);
     }
 
-    public OBottomNavigationView(@NonNull Context context, @Nullable AttributeSet attrs){
+    public SBottomNavigationView(@NonNull Context context, @Nullable AttributeSet attrs){
         super(context, attrs);
     }
 
-    public OBottomNavigationView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr){
+    public SBottomNavigationView(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr){
         super(context, attrs, defStyleAttr);
     }
 

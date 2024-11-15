@@ -1,4 +1,4 @@
-package com.octorrent.android.ui.fragments;
+package com.sectorrent.android.ui.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-import com.octorrent.android.R;
+import com.sectorrent.android.R;
 
 public class TorrentCompletedFragment extends Fragment {
 
